@@ -54,9 +54,9 @@ Vite is a build tool that aims to provide a faster and leaner development experi
 
 > Just run the following commands in your terminal.
 ```
-    $ yarn create kowindv3 <project-name> --template <template-name>
+    $ yarn create kowind <project-name> --template <template-name>
     #or
-    $ npm init kowindv3 <project-name> --template <template-name>
+    $ npm init kowind <project-name> --template <template-name>
 
     $ cd <project-name>
 ```
