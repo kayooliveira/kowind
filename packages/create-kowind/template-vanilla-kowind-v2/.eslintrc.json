@@ -1,0 +1,52 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "standard",
+        "prettier",
+        "plugin:import/warnings",
+        "plugin:import/errors"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "eslint-plugin-import-helpers",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier":"error",
+        "space-before-function-paren":"off",
+        "camelcase":"warn",
+        "no-use-before-define":"off",
+        "import-helpers/order-imports": [
+            "warn",
+            {
+                "newlinesBetween": "always",
+                "groups": [
+                    "module",
+                    "/^@shared/",
+                    ["parent", "sibling", "index"]
+                ],
+                "alphabetize": { "order": "asc", "ignoreCase": true }
+            }
+        ],
+        "import/prefer-default-export": "off"
+
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".js",
+                ]
+            }
+        }
+    }
+}

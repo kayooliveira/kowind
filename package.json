@@ -1,0 +1,8 @@
+{
+  "name": "kowind",
+  "version": "2.0.0",
+  "description": "Install and Setting Tailwindcss, Prettier and ESLint automatically for Vite",
+  "author": "kayooliveira",
+  "license": "MIT",
+  "icon": "./logo.svg"
+}

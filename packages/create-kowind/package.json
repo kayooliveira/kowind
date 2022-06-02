@@ -1,0 +1,54 @@
+{
+  "name": "create-kowind",
+  "version": "3.0.0",
+  "icon": "./logo.svg",
+  "description": "Scaffolding for your tailwindcss v3 project",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-kowind": "index.js",
+    "cka": "index.js"
+  },
+  "files": [
+    "index.js",
+    "gitignore",
+    "template-*"
+  ],
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "node sync-repos --clear_git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kowindjs/kowind.git/tree/master",
+    "directory": "packages/create-kowind"
+  },
+  "homepage": "https://kowind.kayooliveira.com",
+  "keywords": [
+    "create kowind",
+    "create-kowind",
+    "vitawind",
+    "kowind",
+    "vite",
+    "vitejs",
+    "vite plugin",
+    "vitejs plugin",
+    "vite-plugin",
+    "tailwind",
+    "tailwindcss",
+    "vue-cli",
+    "cra",
+    "create react app",
+    "create-react-app"
+  ],
+  "author": "kayooliveira",
+  "license": "MIT",
+  "dependencies": {
+    "kolorist": "^1.5.1",
+    "minimist": "^1.2.6",
+    "prompts": "^2.4.2"
+  }
+}
