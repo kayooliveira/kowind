@@ -1,6 +1,6 @@
 {
   "name": "create-kowind",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "icon": "./logo.svg",
   "description": "Scaffolding for your tailwindcss v3 project",
   "main": "index.js",
